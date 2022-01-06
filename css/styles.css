@@ -337,6 +337,16 @@ footer::after {
         grid-row-start: 6;
         background: #4A4A4A;
         position: relative;
+        margin-right: 1rem;
+    }
+    .p1,
+    .p3,
+    .p5 {
+        padding-left: 1rem;
+    }
+    .p2,
+    .p4 {
+        padding-right: 1rem;
     }
     .about h2,
     .about p {
