@@ -21,7 +21,7 @@ function displayPhoto(photo) {
 }
 
 main.addEventListener('click', (event) => {
-    if (event.target !== main) {
+    if (event.target.className === "photo") {
         const photo = event.target.closest("img");
         displayPhoto(photo);
     }
